@@ -5,18 +5,19 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #f8f9fa;
     margin: 0 auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 h1 {
+    display: flex;
+    justify-content: start;
     background: #f8f9fa;
     width: 620px;
-    height: 60px;
-    margin: auto;
-    padding-top: 10px;
-    text-align: left;
 }
 
 main {
@@ -25,7 +26,7 @@ main {
 }
 
 
-#Post {
+.post {
     box-sizing: content-box;
     position: relative;
     background: #f8f9fa;
@@ -37,7 +38,8 @@ main {
 .first-line {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .first-line p{
